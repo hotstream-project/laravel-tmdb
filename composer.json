@@ -1,5 +1,5 @@
 {
-    "name": "codebuglab/laravel-tmdb",
+    "name": "hotstream/laravel-tmdb",
     "description": "Simple integration with TMDB ( The Movie Database ) API to retrieve their data.",
     "type": "library",
     "license": "MIT",
