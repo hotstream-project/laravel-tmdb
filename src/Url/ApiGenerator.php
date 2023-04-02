@@ -21,9 +21,20 @@ class ApiGenerator implements ApiGeneratorInterface
         $this->apiLanguage = $apiLanguage;
     }
 
-    public function api($path)
+    public function api($path, ?string $language = null, array $otherParams = [])
     {
-        $this->url = $this->apiUrl . $path . "?api_key=" . $this->apiKey . "&language=" . $this->apiLanguage;
+        $params = [
+            "api_key" => $this->apiKey,
+            ...$otherParams,
+        ];
+
+        if (is_null($language)) {
+            $params["language"] = $this->apiLanguage;
+        } else if ($language !== "") {
+            $params["language"] = $language;
+        }
+
+        $this->url = $this->apiUrl . $path . "?" . http_build_query($params, '', '&');
     }
 
     public function getUrl()

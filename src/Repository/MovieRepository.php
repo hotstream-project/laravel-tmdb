@@ -56,9 +56,16 @@ class MovieRepository extends AbstractRepository
     /**
      * @see https://developers.themoviedb.org/3/movies/get-movie-images
      */
-    public function images($movieId): self
+    public function images($movieId, ?string $language = null, string $includeImageLanguage = ""): self
     {
-        $this->apiGenerator->api("movie/" . $movieId . "/images");
+        $otherApiUrlParams = [];
+
+        if ($includeImageLanguage !== '') {
+            $otherApiUrlParams["include_image_language"] = $includeImageLanguage;
+        }
+
+        $this->apiGenerator->api("movie/" . $movieId . "/images", $language, $otherApiUrlParams);
+
         return $this;
     }
 

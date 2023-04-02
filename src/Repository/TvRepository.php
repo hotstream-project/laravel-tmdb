@@ -83,9 +83,10 @@ class TvRepository extends AbstractRepository
     /**
      * @see https://developers.themoviedb.org/3/tv/get-tv-images
      */
-    public function images($tvId): self
+    public function images($tvId, ?string $language = null): self
     {
-        $this->apiGenerator->api("tv/" . $tvId . "/images");
+        $this->apiGenerator->api("tv/" . $tvId . "/images", $language);
+
         return $this;
     }
 
