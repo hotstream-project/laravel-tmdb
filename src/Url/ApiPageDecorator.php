@@ -1,6 +1,6 @@
 <?php
 
-namespace CodeBugLab\Tmdb\Url;
+namespace Hotstream\Tmdb\Url;
 
 /**
  * The class return other pages from the response if exist

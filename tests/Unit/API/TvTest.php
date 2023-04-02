@@ -1,10 +1,10 @@
 <?php
 
-namespace CodeBugLab\Tmdb\Tests\Unit\API;
+namespace Hotstream\Tmdb\Tests\Unit\API;
 
-use CodeBugLab\Tmdb\Tests\Mocks\Response\TvResponse;
-use CodeBugLab\Tmdb\Tests\Mocks\Tmdb as MockedTmdb;
-use CodeBugLab\Tmdb\Tests\TestCase;
+use Hotstream\Tmdb\Tests\Mocks\Response\TvResponse;
+use Hotstream\Tmdb\Tests\Mocks\Tmdb as MockedTmdb;
+use Hotstream\Tmdb\Tests\TestCase;
 
 class TvTest extends TestCase
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace CodeBugLab\Tmdb\Facades;
+namespace Hotstream\Tmdb\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

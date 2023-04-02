@@ -1,6 +1,6 @@
 <?php
 
-namespace CodeBugLab\Tmdb\Repository;
+namespace Hotstream\Tmdb\Repository;
 
 /**
  * @see https://developers.themoviedb.org/3/collections/

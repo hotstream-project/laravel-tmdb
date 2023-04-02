@@ -1,6 +1,6 @@
 <?php
 
-namespace CodeBugLab\Tmdb\Tests\Mocks\Response;
+namespace Hotstream\Tmdb\Tests\Mocks\Response;
 
 trait TvResponse
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace CodeBugLab\Tmdb\Url;
+namespace Hotstream\Tmdb\Url;
 
 /**
  * The class return query parameter as set by user

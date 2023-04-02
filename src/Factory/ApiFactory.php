@@ -1,12 +1,12 @@
 <?php
 
-namespace CodeBugLab\Tmdb\Factory;
+namespace Hotstream\Tmdb\Factory;
 
-use CodeBugLab\Tmdb\Exceptions\MethodException;
-use CodeBugLab\Tmdb\Url\ApiAppendToResponseDecorator;
-use CodeBugLab\Tmdb\Url\ApiGeneratorInterface;
-use CodeBugLab\Tmdb\Url\ApiPageDecorator;
-use CodeBugLab\Tmdb\Url\ApiQueryDecorator;
+use Hotstream\Tmdb\Exceptions\MethodException;
+use Hotstream\Tmdb\Url\ApiAppendToResponseDecorator;
+use Hotstream\Tmdb\Url\ApiGeneratorInterface;
+use Hotstream\Tmdb\Url\ApiPageDecorator;
+use Hotstream\Tmdb\Url\ApiQueryDecorator;
 
 class ApiFactory implements ApiFactoryInterface
 {

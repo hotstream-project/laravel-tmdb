@@ -149,12 +149,12 @@ Simple integration with TMDB ( The Movie Database ) API to retrieve their data.
 To install this package through composer run the following command in the terminal
 
 ```bash
-composer require codebuglab/laravel-tmdb
+composer require Hotstream/laravel-tmdb
 ```
 ### Publish
 You have to publish config file with this artisan command:
 ```bash
-php artisan vendor:publish --provider="CodeBugLab\Tmdb\TmdbServiceProvider"
+php artisan vendor:publish --provider="Hotstream\Tmdb\TmdbServiceProvider"
 ```
 - File `tmdb.php` will be publish in `config` folder after that.
 - Then you have to put your tmdb api key in your `env` file like this `TMDB_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx`.
@@ -164,7 +164,7 @@ php artisan vendor:publish --provider="CodeBugLab\Tmdb\TmdbServiceProvider"
 - You can use tmdb api and get information your want, first take a quick look at [official api page](https://developers.themoviedb.org/3/getting-started).
 - For all next API requests you have to use Tmdb facade 
 ```php
-use CodeBugLab\Tmdb\Facades\Tmdb;
+use Hotstream\Tmdb\Facades\Tmdb;
 ```
 - Every request have it's own information link, you can know required parameters, returned array, different type of responses and optional query string and we take about this in [options](#options) section
 

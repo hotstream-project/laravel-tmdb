@@ -1,6 +1,6 @@
 <?php
 
-namespace CodeBugLab\Tmdb\Url;
+namespace Hotstream\Tmdb\Url;
 
 /**
  * The class equivalent of query parameter append_to_response

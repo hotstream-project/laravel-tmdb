@@ -1,9 +1,9 @@
 <?php
 
-namespace CodeBugLab\Tmdb;
+namespace Hotstream\Tmdb;
 
-use CodeBugLab\Tmdb\Repository\AbstractRepository;
-use CodeBugLab\Tmdb\Url\ApiGenerator;
+use Hotstream\Tmdb\Repository\AbstractRepository;
+use Hotstream\Tmdb\Url\ApiGenerator;
 use Illuminate\Support\ServiceProvider;
 
 class TmdbServiceProvider extends ServiceProvider

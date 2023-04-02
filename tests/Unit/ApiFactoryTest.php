@@ -1,12 +1,12 @@
 <?php
 
-namespace CodeBugLab\Tmdb\Tests\Unit;
+namespace Hotstream\Tmdb\Tests\Unit;
 
-use CodeBugLab\Tmdb\Exceptions\MethodException;
-use CodeBugLab\Tmdb\Factory\ApiFactory;
-use CodeBugLab\Tmdb\Repository\AbstractRepository;
-use CodeBugLab\Tmdb\Tests\TestCase;
-use CodeBugLab\Tmdb\Url\ApiGenerator;
+use Hotstream\Tmdb\Exceptions\MethodException;
+use Hotstream\Tmdb\Factory\ApiFactory;
+use Hotstream\Tmdb\Repository\AbstractRepository;
+use Hotstream\Tmdb\Tests\TestCase;
+use Hotstream\Tmdb\Url\ApiGenerator;
 
 class ApiFactoryTest extends TestCase
 {

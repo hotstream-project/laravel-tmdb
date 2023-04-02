@@ -1,10 +1,10 @@
 <?php
 
-namespace CodeBugLab\Tmdb\Repository;
+namespace Hotstream\Tmdb\Repository;
 
-use CodeBugLab\Tmdb\Factory\ApiFactory;
-use CodeBugLab\Tmdb\Helper\CurlHelper;
-use CodeBugLab\Tmdb\Url\ApiGenerator;
+use Hotstream\Tmdb\Factory\ApiFactory;
+use Hotstream\Tmdb\Helper\CurlHelper;
+use Hotstream\Tmdb\Url\ApiGenerator;
 
 abstract class AbstractRepository
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace CodeBugLab\Tmdb\Factory;
+namespace Hotstream\Tmdb\Factory;
 
-use CodeBugLab\Tmdb\Url\ApiGeneratorInterface;
+use Hotstream\Tmdb\Url\ApiGeneratorInterface;
 
 interface ApiFactoryInterface
 {

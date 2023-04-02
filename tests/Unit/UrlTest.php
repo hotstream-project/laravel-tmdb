@@ -1,13 +1,13 @@
 <?php
 
-namespace CodeBugLab\Tmdb\Tests\Unit;
+namespace Hotstream\Tmdb\Tests\Unit;
 
-use CodeBugLab\Tmdb\Repository\AbstractRepository;
-use CodeBugLab\Tmdb\Tests\TestCase;
-use CodeBugLab\Tmdb\Url\ApiAppendToResponseDecorator;
-use CodeBugLab\Tmdb\Url\ApiGenerator;
-use CodeBugLab\Tmdb\Url\ApiPageDecorator;
-use CodeBugLab\Tmdb\Url\ApiQueryDecorator;
+use Hotstream\Tmdb\Repository\AbstractRepository;
+use Hotstream\Tmdb\Tests\TestCase;
+use Hotstream\Tmdb\Url\ApiAppendToResponseDecorator;
+use Hotstream\Tmdb\Url\ApiGenerator;
+use Hotstream\Tmdb\Url\ApiPageDecorator;
+use Hotstream\Tmdb\Url\ApiQueryDecorator;
 
 class UrlTest extends TestCase
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace CodeBugLab\Tmdb\Helper;
+namespace Hotstream\Tmdb\Helper;
 
 class CurlHelper
 {

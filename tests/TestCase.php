@@ -1,8 +1,8 @@
 <?php
 
-namespace CodeBugLab\Tmdb\Tests;
+namespace Hotstream\Tmdb\Tests;
 
-use CodeBugLab\Tmdb\TmdbServiceProvider;
+use Hotstream\Tmdb\TmdbServiceProvider;
 use Orchestra\Testbench\TestCase as BaseTestCase;
 
 abstract class TestCase extends BaseTestCase

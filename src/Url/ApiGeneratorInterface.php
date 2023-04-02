@@ -1,6 +1,6 @@
 <?php
 
-namespace CodeBugLab\Tmdb\Url;
+namespace Hotstream\Tmdb\Url;
 
 interface ApiGeneratorInterface
 {

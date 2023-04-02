@@ -1,8 +1,8 @@
 <?php
 
-namespace CodeBugLab\Tmdb\Tests\Mocks;
+namespace Hotstream\Tmdb\Tests\Mocks;
 
-use CodeBugLab\Tmdb\Tmdb as MainTmdb;
+use Hotstream\Tmdb\Tmdb as MainTmdb;
 use Mockery;
 
 class Tmdb
@@ -50,25 +50,25 @@ class Tmdb
 
     public function __construct()
     {
-        $this->certificationRepository = Mockery::mock('CodeBugLab\Tmdb\Repository\CertificationRepository');
-        $this->changeRepository = Mockery::mock('CodeBugLab\Tmdb\Repository\ChangeRepository');
-        $this->collectionRepository = Mockery::mock('CodeBugLab\Tmdb\Repository\CollectionRepository');
-        $this->companyRepository = Mockery::mock('CodeBugLab\Tmdb\Repository\CompanyRepository');
-        $this->configurationRepository = Mockery::mock('CodeBugLab\Tmdb\Repository\ConfigurationRepository');
-        $this->creditRepository = Mockery::mock('CodeBugLab\Tmdb\Repository\CreditRepository');
-        $this->discoverRepository = Mockery::mock('CodeBugLab\Tmdb\Repository\DiscoverRepository');
-        $this->genreRepository = Mockery::mock('CodeBugLab\Tmdb\Repository\GenreRepository');
-        $this->listRepository = Mockery::mock('CodeBugLab\Tmdb\Repository\ListRepository');
-        $this->movieRepository = Mockery::mock('CodeBugLab\Tmdb\Repository\MovieRepository');
-        $this->networkRepository = Mockery::mock('CodeBugLab\Tmdb\Repository\NetworkRepository');
-        $this->trendingRepository = Mockery::mock('CodeBugLab\Tmdb\Repository\TrendingRepository');
-        $this->personRepository = Mockery::mock('CodeBugLab\Tmdb\Repository\PersonRepository');
-        $this->reviewRepository = Mockery::mock('CodeBugLab\Tmdb\Repository\ReviewRepository');
-        $this->searchRepository = Mockery::mock('CodeBugLab\Tmdb\Repository\SearchRepository');
-        $this->tvRepository = Mockery::mock('CodeBugLab\Tmdb\Repository\TvRepository');
-        $this->tvSeasonRepository = Mockery::mock('CodeBugLab\Tmdb\Repository\TvSeasonRepository');
-        $this->tvEpisodeRepository = Mockery::mock('CodeBugLab\Tmdb\Repository\TvEpisodeRepository');
-        $this->watchProviderRepository = Mockery::mock('CodeBugLab\Tmdb\Repository\WatchProviderRepository');
+        $this->certificationRepository = Mockery::mock('Hotstream\Tmdb\Repository\CertificationRepository');
+        $this->changeRepository = Mockery::mock('Hotstream\Tmdb\Repository\ChangeRepository');
+        $this->collectionRepository = Mockery::mock('Hotstream\Tmdb\Repository\CollectionRepository');
+        $this->companyRepository = Mockery::mock('Hotstream\Tmdb\Repository\CompanyRepository');
+        $this->configurationRepository = Mockery::mock('Hotstream\Tmdb\Repository\ConfigurationRepository');
+        $this->creditRepository = Mockery::mock('Hotstream\Tmdb\Repository\CreditRepository');
+        $this->discoverRepository = Mockery::mock('Hotstream\Tmdb\Repository\DiscoverRepository');
+        $this->genreRepository = Mockery::mock('Hotstream\Tmdb\Repository\GenreRepository');
+        $this->listRepository = Mockery::mock('Hotstream\Tmdb\Repository\ListRepository');
+        $this->movieRepository = Mockery::mock('Hotstream\Tmdb\Repository\MovieRepository');
+        $this->networkRepository = Mockery::mock('Hotstream\Tmdb\Repository\NetworkRepository');
+        $this->trendingRepository = Mockery::mock('Hotstream\Tmdb\Repository\TrendingRepository');
+        $this->personRepository = Mockery::mock('Hotstream\Tmdb\Repository\PersonRepository');
+        $this->reviewRepository = Mockery::mock('Hotstream\Tmdb\Repository\ReviewRepository');
+        $this->searchRepository = Mockery::mock('Hotstream\Tmdb\Repository\SearchRepository');
+        $this->tvRepository = Mockery::mock('Hotstream\Tmdb\Repository\TvRepository');
+        $this->tvSeasonRepository = Mockery::mock('Hotstream\Tmdb\Repository\TvSeasonRepository');
+        $this->tvEpisodeRepository = Mockery::mock('Hotstream\Tmdb\Repository\TvEpisodeRepository');
+        $this->watchProviderRepository = Mockery::mock('Hotstream\Tmdb\Repository\WatchProviderRepository');
 
         $this->tmdb = new MainTmdb(
             $this->certificationRepository,

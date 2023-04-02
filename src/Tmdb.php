@@ -1,26 +1,26 @@
 <?php
 
-namespace CodeBugLab\Tmdb;
+namespace Hotstream\Tmdb;
 
-use CodeBugLab\Tmdb\Repository\CertificationRepository;
-use CodeBugLab\Tmdb\Repository\ChangeRepository;
-use CodeBugLab\Tmdb\Repository\CollectionRepository;
-use CodeBugLab\Tmdb\Repository\CompanyRepository;
-use CodeBugLab\Tmdb\Repository\ConfigurationRepository;
-use CodeBugLab\Tmdb\Repository\CreditRepository;
-use CodeBugLab\Tmdb\Repository\DiscoverRepository;
-use CodeBugLab\Tmdb\Repository\GenreRepository;
-use CodeBugLab\Tmdb\Repository\ListRepository;
-use CodeBugLab\Tmdb\Repository\MovieRepository;
-use CodeBugLab\Tmdb\Repository\NetworkRepository;
-use CodeBugLab\Tmdb\Repository\PersonRepository;
-use CodeBugLab\Tmdb\Repository\ReviewRepository;
-use CodeBugLab\Tmdb\Repository\SearchRepository;
-use CodeBugLab\Tmdb\Repository\TrendingRepository;
-use CodeBugLab\Tmdb\Repository\TvEpisodeRepository;
-use CodeBugLab\Tmdb\Repository\TvRepository;
-use CodeBugLab\Tmdb\Repository\TvSeasonRepository;
-use CodeBugLab\Tmdb\Repository\WatchProviderRepository;
+use Hotstream\Tmdb\Repository\CertificationRepository;
+use Hotstream\Tmdb\Repository\ChangeRepository;
+use Hotstream\Tmdb\Repository\CollectionRepository;
+use Hotstream\Tmdb\Repository\CompanyRepository;
+use Hotstream\Tmdb\Repository\ConfigurationRepository;
+use Hotstream\Tmdb\Repository\CreditRepository;
+use Hotstream\Tmdb\Repository\DiscoverRepository;
+use Hotstream\Tmdb\Repository\GenreRepository;
+use Hotstream\Tmdb\Repository\ListRepository;
+use Hotstream\Tmdb\Repository\MovieRepository;
+use Hotstream\Tmdb\Repository\NetworkRepository;
+use Hotstream\Tmdb\Repository\PersonRepository;
+use Hotstream\Tmdb\Repository\ReviewRepository;
+use Hotstream\Tmdb\Repository\SearchRepository;
+use Hotstream\Tmdb\Repository\TrendingRepository;
+use Hotstream\Tmdb\Repository\TvEpisodeRepository;
+use Hotstream\Tmdb\Repository\TvRepository;
+use Hotstream\Tmdb\Repository\TvSeasonRepository;
+use Hotstream\Tmdb\Repository\WatchProviderRepository;
 
 class Tmdb
 {

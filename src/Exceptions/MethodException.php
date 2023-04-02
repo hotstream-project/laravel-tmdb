@@ -1,6 +1,6 @@
 <?php
 
-namespace CodeBugLab\Tmdb\Exceptions;
+namespace Hotstream\Tmdb\Exceptions;
 
 use Exception;
 

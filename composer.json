@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "CodeBugLab\\Tmdb\\": "src/"
+            "Hotstream\\Tmdb\\": "src/"
         }
     },
     "require-dev": {
@@ -25,13 +25,13 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "CodeBugLab\\Tmdb\\Tests\\": "tests/"
+            "Hotstream\\Tmdb\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "CodeBugLab\\Tmdb\\TmdbServiceProvider"
+                "Hotstream\\Tmdb\\TmdbServiceProvider"
             ]
         }
     },
